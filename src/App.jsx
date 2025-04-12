@@ -20,7 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Login />} />
             <Route 
-              path="/29062023home" 
+              path="/home" 
               element={
                 <ProtectedRoute>
                   <Home />
@@ -67,3 +67,28 @@ function App() {
 }
 
 export default App;
+
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// import Home from './pages/Home';
+// import Profile from './pages/Profile';
+// import Viewprofile from './pages/Viewprofile';
+// import Signup from './pages/Signup';
+// import Uploadmovies from './pages/Uploadmovies';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Router>
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/viewprofile" element={<Viewprofile />} />
+//           <Route path="/createprofile" element={<Profile />} />
+//           <Route path="/upload" element={<Uploadmovies />} />
+//           <Route path="/signup" element={<Signup />} />
+//         </Routes>
+//       </Router>
+//     </div>
+//   );
+// }
+
+// export default App;
