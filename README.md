@@ -1,4 +1,40 @@
-# Getting Started with Create React App
+# **MovieMate: An Ad-Free OTT Streaming Platform**
+
+**MovieMate** is a modern web-based platform that aggregates movies and TV shows from multiple OTT services into one ad-free streaming hub. Built with **React**, **Node.js**, and **Firebase**, it delivers a seamless entertainment experience with robust authentication, real-time updates, and a scalable architecture.
+
+---
+
+## **Features**
+- **Unified Access** – Stream content from multiple OTT platforms in one place.
+- **Ad-Free Experience** – Enjoy uninterrupted viewing without advertisements.
+- **Dynamic React Frontend** – Responsive UI with smooth navigation.
+- **Secure Authentication** – Email/password login and Google OAuth via Firebase Authentication.
+- **Content Browsing** – Infinite scroll for browsing latest movies and shows sorted by recency and popularity.
+- **Profile Management** – Personalized recommendations and watch history tracking.
+- **Administrative Controls** – Role-based access for adding and managing content.
+- **Scalable Backend** – Node.js API with Firebase Realtime Database for instant data synchronization.
+
+---
+
+## **Technologies Used**
+- **Frontend:** React.js
+- **Backend:** Node.js
+- **Database:** Firebase Realtime Database
+- **Authentication:** Firebase Authentication (Email/Password, Google OAuth)
+- **Hosting:** Firebase Hosting
+
+---
+
+## **Contributors**
+- Advait Jadhav
+
+---
+
+## **Future Enhancements**
+- AI-powered content recommendation system.
+- Social features for sharing and discussing content.
+- Expanded content libraries from additional OTT platforms.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 images :
@@ -29,3 +65,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 # deployed on https://movieweb-f2893.web.app/
+
